@@ -1,0 +1,50 @@
+/* reset */
+html,body{min-width: 1198px;font-size: 12px;}
+.wrap {width: 1198px; margin: 0 auto;}
+.hover:hover {color: #f01414;}
+.special { color: #f01414; }
+.hand {cursor: pointer;}
+.text-hide {text-indent: -9999px;}
+.dropdown-right {
+    right: 0;
+}
+.dropdown-left {
+    left: 0;
+}
+.dropdown-layer .loading-pic{
+    width: 32px !important;
+    height: 32px !important;
+    /* padding: 20px !important; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../img/loading.gif) no-repeat center;
+}
+.slide .loading-pic,
+.fade .loading-pic,
+.switch .loading-pic,
+.today-container .loading-pic{
+    width: 32px ;
+    height: 32px ;
+    /* padding: 20px !important; */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../img/loading.gif) no-repeat center;
+}
+.slideStartEnd .load-pic{
+    /* width: 32px !important; */
+    /* height: 32px !important; */
+    /* padding: 20px !important; */
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    background: url(../img/loading.gif) no-repeat center;
+}
+.bcolor {
+    background-color: #f3f5f7;
+    /* background-color: #868686; */
+}

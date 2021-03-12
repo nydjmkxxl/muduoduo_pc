@@ -1,0 +1,63 @@
+/* #region _____css3 support */
+@font-face {
+    font-family: 'icon';
+    src: url('../icon/');
+    src: url('../icon/?#iefix') format('embedded-opentype'),
+        url('../icon/iconfont.woff2') format('woff2'),
+        url('../icon/iconfont.woff') format('woff'),
+        url('../icon/iconfont.ttf') format('truetype'),
+        url('../icon/iconfont.svg#iconfont') format('svg');
+}
+.icon {
+    font-family: "icon" !important;
+    font-size: 12px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fadeOut {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}
+.transition {
+    transition: all .5s !important;
+    -o-transition: all .5s !important;
+    -ms-transition: all .5s !important;
+    -moz-transition: all .5s !important;
+    -webkit-transition: all .5s !important;
+}
+[class*=-active] .dropdown-arrow {
+    transition: all .5s;
+    display: inline-block;
+    color: #f01414;
+    transform: rotate(180deg) !important;
+    -o-transform: rotate(180deg) !important;
+    -ms-transform: rotate(180deg) !important;
+    -moz-transform: rotate(180deg) !important;
+    -webkit-transform: rotate(180deg) !important;
+}
+.rotate-init{
+    transition: all .5s;
+    display: inline-block;
+    transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+.slideUpDown {
+    height: 0  !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.slideLeftRight {
+    width: 0  !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/* #endregion */
